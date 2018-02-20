@@ -5,9 +5,9 @@
     "url": "http://github.com/sirensolutions/sentinl.git"
   },
   "name": "sentinl",
-  "version": "6.0.0-SNAPSHOT",
+  "version": "6.0.0-DEV",
   "kibana": {
-    "version": "6.0.0"
+    "version": "6.2.1"
   },
   "description": "Kibana Alert & Report App for Elasticsearch",
   "main": "index.js",
@@ -31,7 +31,7 @@
     "boom": "7.1.1",
     "bootstrap": "3.3.7",
     "decompress": "4.2.0",
-    "elasticsearch": "13.2.0",
+    "elasticsearch": "latest",
     "emailjs": "1.0.8",
     "later": "1.2.0",
     "mustache": "2.3.0",

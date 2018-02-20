@@ -43,7 +43,7 @@ export default function logEvent(server, client, config, watcherTitle, type, mes
 
   client.index({
     index: indexName,
-    type: type,
+    type: '_doc',
     body: indexBody
   }).then(function (resp) {
     server.log(['status', 'info', 'Sentinl'], `Alarm stored successfully to ES with type: [${type}]`);

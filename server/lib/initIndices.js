@@ -40,7 +40,8 @@ const putMapping = function (server, config, indexName, docType, mappings) {
 
   client.indices.putMapping({
     index: indexName,
-    type: docType,
+    //type: docType,
+    type: '_doc',
     body: mappings
   })
   .then(function (resp) {

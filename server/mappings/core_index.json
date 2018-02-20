@@ -1,5 +1,6 @@
 {
   "properties": {
+    "type": { "type": "keyword" },
     "input": {
       "type": "object",
       "enabled": false

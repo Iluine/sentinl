@@ -1,5 +1,6 @@
 {
   "properties": {
+    "type": { "type": "keyword" },
     "title": {
       "type": "text"
     },
