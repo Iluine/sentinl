@@ -7,7 +7,7 @@
   "name": "sentinl",
   "version": "6.0.0-DEV",
   "kibana": {
-    "version": "6.2.1"
+    "version": "6.2.2"
   },
   "description": "Kibana Alert & Report App for Elasticsearch",
   "main": "index.js",
